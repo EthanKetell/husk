@@ -31,6 +31,10 @@ window/size/viewport_height=720
 window/size/mode=3
 window/size/initial_position_type=2
 
+[dotnet]
+
+project/assembly_name="Husk"
+
 [editor]
 
 movie_writer/movie_file="C:/Users/adamf/Documents/husk/movie.avi"
@@ -158,4 +162,20 @@ texture_lod_halve_distance={
 vertex_snap_intensity={
 "type": "int",
 "value": 1
+}
+dither_scale={
+"type": "float",
+"value": 5.0
+}
+dither_strength={
+"type": "float",
+"value": 0.25
+}
+dither_levels={
+"type": "float",
+"value": 2.5
+}
+dither_texture={
+"type": "sampler2D",
+"value": "res://dither.png"
 }
